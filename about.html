@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Travel Booking</title>
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/fonts.css">
+  <link rel="stylesheet" type="text/css" href="styles/global.css">
+  <link rel="stylesheet" type="text/css" href="styles/about.css">
+  <link rel="stylesheet" type="text/css" href="styles/accordion.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="about-section">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce venenatis tortor id felis placerat,
+      non mollis nisl interdum. Quisque varius metus vitae sapien tempus, id tempor libero laoreet. Nulla facilisi.
+      Curabitur sed mauris justo. Phasellus tincidunt arcu nec justo venenatis, in sagittis lacus pulvinar. Integer
+      vitae justo quis orci posuere sollicitudin a non quam. Donec ut augue quam.</p>
+
+      <div class="accordion">
+        <button class="accordion-btn">Our Mission</button>
+        <div class="accordion-panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget ante eu risus consectetur
+            venenatis. Nullam in eros fringilla, convallis eros sed, vestibulum metus. Vivamus in libero at ipsum
+            vehicula sodales nec eu nunc.</p>
+        </div>
+      
+        <button class="accordion-btn">Our Vision</button>
+        <div class="accordion-panel">
+          <p>Quisque efficitur est vitae libero scelerisque, ac vestibulum sem posuere. Sed tincidunt velit ac
+            gravida imperdiet. Nunc at condimentum ipsum. Duis et mauris vel lorem fringilla ultricies. Sed
+            dignissim commodo odio, vel condimentum turpis feugiat a.</p>
+        </div>
+      
+        <button class="accordion-btn">Where we are Located</button>
+        <div class="accordion-panel">
+          <p>Proin vel dui fringilla, tincidunt mi a, ullamcorper urna. Donec vel luctus ipsum. Integer sed purus
+            vitae augue fringilla vulputate. Aliquam posuere dictum lectus, a vehicula justo vehicula sed. Ut
+            auctor libero nec quam laoreet, a posuere enim vestibulum.</p>
+        </div>
+      
+        <!-- Google Map -->
+        <div class="google-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20059.233075799995!2d-114.12664852568356!3d51.06408939999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f9268a69e81%3A0xb1db5e68bd61e28!2sSouthern%20Alberta%20Institute%20of%20Technology!5e0!3m2!1sen!2sca!4v1709838528816!5m2!1sen!2sca"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h1>Viva Vacation</h1>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+        </ul>
+      </div>
+    </div>
+    <h6>Copyright &copy; <span id="year"></span> SAIT Student Inc.</h6>
+  </footer>
+
+  <script src="scripts/accordion.js"></script>
+</body>
+</html>

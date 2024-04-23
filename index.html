@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viva Vacation</title>
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/fonts.css">
+  <link rel="stylesheet" type="text/css" href="styles/global.css">
+  <link rel="stylesheet" type="text/css" href="styles/home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, -0.2), rgba(0, 0, 0, -0.2)), url('./pics/beach.jpg');
+  background-size: cover; height: 55vh; background-position: center; background-repeat: no-repeat; position:
+  relative;">
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Viva Vacation</h1>
+        <h2>Explore the World with Us</h2>
+        <p>Find your next adventure</p>
+      </div>
+      <div class="search-form">
+          <input type="text" placeholder="Enter destination...">
+          <input type="date" placeholder="Departure Date">
+          <input type="date" placeholder="Return Date">
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="featured-destinations">
+    <h2>Featured Destinations</h2>
+    <div class="destination-card">
+      <img src="pics/Eiffel.jpg" alt="Destination 1">
+      <div class="destination-info">
+        <h3>Paris, France</h3>
+        <p>Experience the romance of the City of Light</p>
+        <a href="#">Explore Paris</a>
+      </div>
+    </div>
+    <div class="destination-card">
+      <img src="pics/GreatWall.jpg" alt="Destination 2">
+      <div class="destination-info">
+        <h3>Beijin, China</h3>
+        <p>Discover the vibrant culture and cuisine of China</p>
+        <a href="#">Explore Tokyo</a>
+      </div>
+    </div>
+    <div class="destination-card">
+      <img src="pics/Mt Rushmore.jpg" alt="Destination 3">
+      <div class="destination-info">
+        <h3>South Dakota, USA</h3>
+        <p>Experience the detailes of Mt. Rushmore</p>
+        <a href="#">Explore South Dakota</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h1>Viva Vacation</h1>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+        </ul>
+      </div>
+    </div>
+    <h6>Copyright &copy; <span id="year"></span> SAIT Student Inc.</h6>
+  </section>
+
+  <script src="scripts/date.js"></script>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+/* Header styles */
+header {
+  font-family: "Josefin Sans", sans-serif, Arial, Helvetica, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #007bff;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+  color: #0056b3;
+}
+
+   /* Footer styles */
+   footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo h1 {
+    font-size: 2em;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-social a {
+    margin-right: 10px;
+  }
+  
+  .footer-social img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-social img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    /* Adjust header and footer for smaller screens */
+    header {
+      padding: 10px 10px;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer-links ul li {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .footer-social img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
